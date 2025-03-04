@@ -2,7 +2,7 @@ import React from 'react';
 import { View, TouchableOpacity, Image, StyleSheet } from 'react-native';
 import { useRouter, usePathname } from 'expo-router';
 
-type RouteType = '/' | '/camera' | '/happy' | '/settings' | '/profile' | '/adventure' | '/todo' | '/yoga' | '/books' | '/jar'; // Define allowed route types
+type RouteType = '/' | '/camera' | '/happy' | '/yoga' | '/profile' | '/adventure' | '/todo' | '/yoga' | '/books' | '/jar'; // Define allowed route types
 
 const TabBar = () => {
   const router = useRouter();
@@ -25,8 +25,8 @@ const TabBar = () => {
       activeIcon: require('../assets/images/smile_active_icon.png'),
     },
     {
-      route: '/settings',
-      icon: require('../assets/images/settings_icon.png'),
+      route: '/yoga',
+      icon: require('../assets/images/yoga_icon.png'),
       activeIcon: require('../assets/images/settings_active_icon.png'),
     },
   ];
@@ -69,4 +69,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default TabBar;
+export default TabBar;  
