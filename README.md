@@ -1,5 +1,7 @@
 # Welcome to your Expo app 👋
 
+Team ID - 30
+
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
 ## Get started
@@ -52,3 +54,5 @@ Join our community of developers creating universal apps.
 
 Proof of Working video
 https://drive.google.com/file/d/1xLbpYTrdIFk5nQ4d_ueB-QEem1XdO8h-/view?usp=sharing
+
+https://drive.google.com/file/d/1OthpbDVSEga6DqG2ZPqlGMUgxsx6uN9O/view?usp=sharing
