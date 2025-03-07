@@ -109,7 +109,7 @@ const HomeScreen = () => {
 
       {/* Jar of Memories Button */}
       <TouchableOpacity style={styles.memoriesButton} onPress={() => router.push('/jar')}>
-        <Text style={styles.memoriesButtonText}>‎ ‎ ‎ ‎ ‎ Jar of Memories</Text>
+        <Text style={styles.memoriesButtonText}>‎ ‎ ‎ ‎ ‎ Achieve</Text>
         <View style={styles.imageContainer}>
         <Image source={require('../assets/images/jar_icon.png')} style={styles.jarIcon}/>
         </View>
